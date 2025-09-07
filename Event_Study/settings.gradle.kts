@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Layout_Study"
+rootProject.name = "Event_Study"
 include(":app")
-include(":ch7_layout")
+ 
