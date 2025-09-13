@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Event_Study"
 include(":app")
- 
+include(":ch8_event")
