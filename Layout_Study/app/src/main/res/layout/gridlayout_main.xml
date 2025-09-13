@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/grid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:columnCount="3"
+    tools:context=".GridActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_rowSpan="2"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="A" />
+
+    <Button android:text="B"/>
+    <Button android:text="C"/>
+
+    <Button
+        android:layout_row="2"
+        android:layout_column="0"
+        android:text="D" />
+
+    <Button
+        android:layout_row="3"
+        android:layout_column="0"
+        android:rotationX="-322"
+        android:text="E" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="82dp"
+        android:layout_row="4"
+        android:layout_column="0"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+</GridLayout>
